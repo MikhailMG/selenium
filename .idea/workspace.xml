@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f2e63aa-eff9-4b3e-9e63-2c3a9bff99a2" name="Changes" comment="Login text fields and EnterData button are accessed. Random strings are added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
+    <list default="true" id="2f2e63aa-eff9-4b3e-9e63-2c3a9bff99a2" name="Changes" comment="Assserts are made for allmost all validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +39,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mikhail\IdeaProjects\TestSelenium\src\test\java" />
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679319871059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Assserts are made for allmost all validation">
+      <created>1679340793396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679340793396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +158,7 @@
     <MESSAGE value="SeleniunTest initial launch." />
     <MESSAGE value="Steam/ steam login menu accessed" />
     <MESSAGE value="Login text fields and EnterData button are accessed. Random strings are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Login text fields and EnterData button are accessed. Random strings are added." />
+    <MESSAGE value="Assserts are made for allmost all validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assserts are made for allmost all validation" />
   </component>
 </project>
