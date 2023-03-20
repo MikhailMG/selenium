@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f2e63aa-eff9-4b3e-9e63-2c3a9bff99a2" name="Changes" comment="Steam/ steam login menu accessed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringRandom.java" afterDir="false" />
+    <list default="true" id="2f2e63aa-eff9-4b3e-9e63-2c3a9bff99a2" name="Changes" comment="Login text fields and EnterData button are accessed. Random strings are added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mikhail\IdeaProjects\TestSelenium\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Mikhail/IdeaProjects/TestSelenium/src/test/java/testng.xml">
+    <configuration name="C:/Users/Mikhail/IdeaProjects/TestSelenium/src/test/java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSelenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Mikhail/IdeaProjects/TestSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSelenium" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -58,8 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Mikhail/IdeaProjects/TestSelenium/src/test/java/testng.xml" />
+        <item itemvalue="TestNG.MainTest" />
         <item itemvalue="TestNG.C:/Users/Mikhail/IdeaProjects/TestSelenium/testng.xml" />
       </list>
     </recent_temporary>
@@ -87,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679238000143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login text fields and EnterData button are accessed. Random strings are added.">
+      <created>1679319871059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679319871059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SeleniunTest initial launch." />
     <MESSAGE value="Steam/ steam login menu accessed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Steam/ steam login menu accessed" />
+    <MESSAGE value="Login text fields and EnterData button are accessed. Random strings are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login text fields and EnterData button are accessed. Random strings are added." />
   </component>
 </project>

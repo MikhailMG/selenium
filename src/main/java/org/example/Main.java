@@ -5,12 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
-import java.time.Duration;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -47,23 +44,27 @@ public class Main {
 
         WebElement loginPassField = driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[6]/div/div[1]/div/div/div/div[2]/div/form/div[2]/input"));
 //                WebElement loginPassField = driver.findElement(By.xpath("//input[@class='newlogindialog_TextInput_2eKVn']")) ;
-       Actions action2 = new Actions(driver);
-        action2.moveToElement(loginPassField).click().perform();
-              action2.sendKeys(StringRandom.randomAlphaNumericSpesh(8)).perform();
+                     action.moveToElement(loginPassField).click().perform();
+              action.sendKeys(StringRandom.randomAlphaNumericSpesh(8)).perform();
 
         WebElement loginUserField = driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[6]/div/div[1]/div/div/div/div[2]/div/form/div[1]/input"));
 //                WebElement loginPassField = driver.findElement(By.xpath("//input[@class='newlogindialog_TextInput_2eKVn']")) ;
-        Actions action3 = new Actions(driver);
-        action3.moveToElement(loginUserField).click().perform();
-        action3.sendKeys(StringRandom.randomAlphaNumeric(8)).perform();
+        action.moveToElement(loginUserField).click().perform();
+        action.sendKeys(StringRandom.randomAlphaNumeric(8)).perform();
 
-        WebElement loginEnterField = driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[6]/div/div[1]/div/div/div/div[2]/div/form/div[4]/button"));
+        WebElement loginEnterButton = driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[6]/div/div[1]/div/div/div/div[2]/div/form/div[4]/button"));
 //                WebElement loginPassField = driver.findElement(By.xpath("//input[@class='newlogindialog_TextInput_2eKVn']")) ;
-                 Actions action4 = new Actions(driver);
-        action4.moveToElement(loginEnterField).click().perform();
+          action.moveToElement(loginEnterButton).click().perform();
+
+  //     div class="newlogindialog_LoadingSpinner_2rGL7 newlogindialog_Small_2G7Us"
 
 
-            try {
+ //     div  class="newlogindialog_FormError_1Mcy9"
+
+
+
+
+        try {
                 Thread.sleep(5* 1000);
             } catch (InterruptedException ie) {
                 Thread.currentThread().interrupt();

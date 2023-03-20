@@ -3,10 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="C:/Users/Mikhail/IdeaProjects/TestSelenium/src/test/java/MainTest.java">
-
-                <classes>
-      <class name="MainTest"></class>
-                </classes>
-
+        <classes>
+            <class name="MainTest"></class>
+        </classes>
     </test>
 </suite>
